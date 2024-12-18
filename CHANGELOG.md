@@ -2,9 +2,44 @@
 
 ## [Unreleased]
 
-## [v1.10.1] - 2024-05-06
+## [v1.14.1] - 2024-12-18
 
-## [v1.10.0] - 2024-05-02
+### Fixed
+
+-   Fix for - [#780](https://github.com/postmanlabs/postman-code-generators/issues/780) Made the codegens package manager agnostic by removing lock files.
+
+## [v1.14.0] - 2024-10-10
+
+### Fixed
+
+-   Fix for - [#5330](https://github.com/postmanlabs/postman-app-support/issues/5330) Added support for usage of --data-binary flag when using long format option for body type binary.
+
+-   Fix for - [#540](https://github.com/postmanlabs/postman-code-generators/issues/540) Curl codesnippet's JSON body must follow multiLine option's configuration.
+
+## [v1.13.0] - 2024-09-11
+
+### Fixed
+
+-   Fix for - [#760](https://github.com/postmanlabs/postman-code-generators/issues/760) Fixed package installation issues with yarn (v4) and pnpm.
+
+## [v1.12.0] - 2024-07-22
+
+### Chore
+
+-   Updated postman-collection sdk to version 4.4.0 in missing codegens.
+
+### Fixed
+
+-   Fix typo in Content-Header for audio/midi files in codegens.
+-   Added support for NTLM auth support in cURL codegen.
+
+## [v1.11.0] - 2024-07-10
+
+### Chore
+
+-   Updated postman-collection to v4.4.0.
+
+## [v1.10.1] - 2024-05-06
 
 ### Fixed
 
@@ -155,11 +190,19 @@ v1.0.0 (May 29, 2020)
 -   Add ES6 syntax support for NodeJS Request, NodeJS Native and NodeJS Unirest
 -   Fix snippet generation for powershell and jquery, where form data params had no type field
 
-[Unreleased]: https://github.com/postmanlabs/postman-code-generators/compare/v1.10.1...HEAD
+[Unreleased]: https://github.com/postmanlabs/postman-code-generators/compare/v1.14.1...HEAD
 
-[v1.10.1]: https://github.com/postmanlabs/postman-code-generators/compare/v1.10.0...v1.10.1
+[v1.14.1]: https://github.com/postmanlabs/postman-code-generators/compare/v1.14.0...v1.14.1
 
-[v1.10.0]: https://github.com/postmanlabs/postman-code-generators/compare/v1.9.0...v1.10.0
+[v1.14.0]: https://github.com/postmanlabs/postman-code-generators/compare/v1.13.0...v1.14.0
+
+[v1.13.0]: https://github.com/postmanlabs/postman-code-generators/compare/v1.12.0...v1.13.0
+
+[v1.12.0]: https://github.com/postmanlabs/postman-code-generators/compare/v1.11.0...v1.12.0
+
+[v1.11.0]: https://github.com/postmanlabs/postman-code-generators/compare/v1.10.1...v1.11.0
+
+[v1.10.1]: https://github.com/postmanlabs/postman-code-generators/compare/v1.10.0...v1.9.0
 
 [v1.9.0]: https://github.com/postmanlabs/postman-code-generators/compare/v1.8.0...v1.9.0
 
