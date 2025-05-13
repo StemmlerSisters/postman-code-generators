@@ -29,7 +29,7 @@
     "async": "3.2.2",
     "path": "0.12.7",
     "postman-collection": "4.0.0",
-    "shelljs": "0.8.5"
+    "shelljs": "0.10.0"
   },
   "devDependencies": {
     "browserify": "14.5.0",
